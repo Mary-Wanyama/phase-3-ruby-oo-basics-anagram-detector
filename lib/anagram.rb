@@ -12,4 +12,6 @@ class Anagram
            chars.split('').sort.join('') == @word.split('').sort.join('')
         end
     end
+
+
 end
